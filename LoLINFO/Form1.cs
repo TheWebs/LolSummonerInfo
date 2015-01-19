@@ -44,7 +44,7 @@ namespace LoLINFO
             WebClient info = new WebClient();
             try
             {
-                TOZE = info.DownloadString("https://euw.api.pvp.net/api/lol/euw/v1.4/summoner/by-name/" + textBox1.Text + "?api_key=067c7765-e085-4a55-83f1-be65b5869416");
+                TOZE = info.DownloadString("https://euw.api.pvp.net/api/lol/euw/v1.4/summoner/by-name/" + textBox1.Text + "?api_key=YOUR RIOT API KEY");
             } catch (WebException ex)
                 {
                     if(ex.Status == WebExceptionStatus.ProtocolError)
