@@ -86,7 +86,7 @@ namespace LoLINFO
             WebClient web = new WebClient();
             try
             {
-                TEXTOHTTP = web.DownloadString("https://euw.api.pvp.net/api/lol/euw/v2.5/league/by-summoner/" + IDPLAYER + "/entry?api_key=067c7765-e085-4a55-83f1-be65b5869416");
+                TEXTOHTTP = web.DownloadString("https://euw.api.pvp.net/api/lol/euw/v2.5/league/by-summoner/" + IDPLAYER + "/entry?api_key=YOUR RIOT API KEY");
             }
             catch (WebException ex)
             {
